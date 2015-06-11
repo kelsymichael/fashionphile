@@ -1,5 +1,6 @@
 html,
 body {
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   font-family: 'Muli', sans-serif;
@@ -76,4 +77,16 @@ select.form-control {
 }
 .logout {
   margin-left: 20px;
+=======
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Muli', sans-serif;
+}
+.loginview {
+  margin: 20px auto;
+>>>>>>> Add stylus guide template
 }
