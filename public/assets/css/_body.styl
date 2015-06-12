@@ -1,0 +1,47 @@
+/*==================
+==== colors ========
+==================*/
+
+$pink-dark = #E72589
+$pink-light = #FF0099
+$light = #D5D5D5
+$medium = #949494
+$dark = #5A5A5A
+$black = #2F2F2F
+
+html
+body
+	font-family: 'Muli', sans-serif
+
+
+.form-control:focus
+	box-shadow $pink-dark
+	border-color $pink-light
+	
+
+/*==================
+==== buttons ========
+==================*/
+.btn 
+	width 100%
+
+.btn-info
+	background $dark
+	color #fff 
+	&:hover 
+		background $pink-light
+		color #fff
+		 
+.btn-default
+	background #FFF 
+	color $pink-light
+	transition .25s 
+	&:hover
+		background $pink-light
+		color #FFF 
+		transition .25s
+
+.jumbotron
+	background $black
+	color #FDFDFD
+	

@@ -1,0 +1,35 @@
+html,
+body {
+  font-family: 'Muli', sans-serif;
+}
+.form-control:focus {
+  box-shadow: #e72589;
+  border-color: #f09;
+}
+.btn {
+  width: 100%;
+}
+.btn-info {
+  background: #5a5a5a;
+  color: #fff;
+}
+.btn-info:hover {
+  background: #f09;
+  color: #fff;
+}
+.btn-default {
+  background: #fff;
+  color: #f09;
+  -webkit-transition: 0.25s;
+          transition: 0.25s;
+}
+.btn-default:hover {
+  background: #f09;
+  color: #fff;
+  -webkit-transition: 0.25s;
+          transition: 0.25s;
+}
+.jumbotron {
+  background: #2f2f2f;
+  color: #fdfdfd;
+}
