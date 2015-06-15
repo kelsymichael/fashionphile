@@ -4,6 +4,17 @@ body {
   height: 100%;
   font-family: 'Muli', sans-serif;
 }
+.requireMe:before {
+  content: '*';
+  position: absolute;
+  down: 25px;
+  left: 2px;
+  font-size: 20px;
+  color: #f00;
+}
+.ipadFooter {
+  display: none;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -76,4 +87,9 @@ select.form-control {
 }
 .logout {
   margin-left: 20px;
+  padding: 10px 20px;
+  border: 1px solid #2f2f2f;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
 }
