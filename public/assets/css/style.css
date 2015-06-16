@@ -7,7 +7,6 @@ body {
 .requireMe:before {
   content: '*';
   position: absolute;
-  down: 25px;
   left: 2px;
   font-size: 20px;
   color: #f00;
@@ -92,4 +91,77 @@ select.form-control {
   border-radius: 4px;
   position: absolute;
   bottom: 0;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #434343;
+  color: #d5d5d5;
+  height: 200px;
+  width: 200px;
+}
+.circle h1 {
+  padding-top: 35%;
+  margin-bottom: 0;
+}
+.square {
+  border-radius: 4px;
+  background-color: #2f2f2f;
+  color: #d5d5d5;
+  height: 200px;
+  width: 200px;
+}
+.square h1 {
+  padding-top: 35%;
+  margin-bottom: 0;
+}
+.square h3 {
+  font-size: 14px;
+  margin-top: 0;
+}
+.leftNum {
+  border-bottom: 3px solid #2f2f2f;
+  text-align: left;
+  margin-bottom: 0;
+}
+.leftText {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 0;
+}
+.leftNumSmall {
+  text-align: left;
+  margin-bottom: 0;
+}
+.shortestBar {
+  border-bottom: 3px solid #2f2f2f;
+  width: 35%;
+}
+.rightNum {
+  text-align: left;
+  margin-bottom: 0;
+}
+.rightTextContainer {
+  padding-top: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+.rightTextContainer h3 {
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.rightTextContainer h4 {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 0;
+}
+.minutes {
+  font-size: 18px;
+  position: relative;
+  right: 10px;
+}
+.average {
+  font-size: 14px;
+  position: relative;
+  left: -30px;
+  margin-top: 0;
 }
