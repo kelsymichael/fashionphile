@@ -66,13 +66,15 @@ select.form-control {
   background: #f09;
   color: #fff;
   border-color: #eb0c8f;
-  transition: 0.25s;
+  -webkit-transition: 0.25s;
+          transition: 0.25s;
 }
 .btn-default:hover {
   background: #e72589;
   color: #fff;
   border-color: #b90160;
-  transition: 0.25s;
+  -webkit-transition: 0.25s;
+          transition: 0.25s;
 }
 .jumbotron {
   background: #434343;
