@@ -77,10 +77,14 @@
 
 
 <!--Individual store stats -->
+<div class="row">
 <h1 class='text-center'>Store Stats</h1>
-<div ng-repeat="location in locations" >
+<div class="col-xs-4 col-xs-offset-4">
+<div class='storeBorder' ng-repeat="location in locations" >
     <!-- location name -->
-    <div class='text-center'ng-model="location.name" ng-change="getLocations(locationId)">
+    <div ng-model="location.name" ng-change="getLocations(locationId)">
         <a class='storeStats'><div ng-click="goToAdminView(location.name)">{{location.name}}</div></a>
    </div>
+ </div>  
+</div>
 </div>
