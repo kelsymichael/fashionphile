@@ -275,6 +275,26 @@ select.form-control {
    margin-left: 10px;
 }
 
-.storeStats{
-  font-size: 30px;
+a.storeStats {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #262626;
+  border-bottom: 5px solid #262626;
+  text-align: center;
 }
+a.storeStats:hover{
+  color: #3434;
+  cursor: pointer;
+}
+/* storeStats bottom border*/
+.storeBorder {
+  margin: 0 0 10px;
+  border-bottom: 2px solid black;
+
+}
+/*.storeBorder:hover{
+  color: #efef;
+}
+*/
+
+
