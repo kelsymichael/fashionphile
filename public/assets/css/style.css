@@ -274,3 +274,7 @@ select.form-control {
 .urlInputH4 {
    margin-left: 10px;
 }
+
+.storeStats{
+  font-size: 30px;
+}
